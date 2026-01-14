@@ -23,17 +23,6 @@ def main(page: ft.Page):
     # Titulo del ejercicio
     ejercicio_titulo = ft.Text(value="Contador interactivo", size=50)
 
-    # Subtitulo del ejercicio
-    ejercicio_subtitulo = ft.Row(
-        alignment=ft.MainAxisAlignment.CENTER,
-        vertical_alignment=ft.CrossAxisAlignment.CENTER,
-        controls=[
-            ft.Text(value="Plan de Ejercicios."),
-            ft.Text(value="Flet."),
-            ft.Text(value="Básico."),
-        ],
-    )
-
     # Contador
     contador = ft.TextField(
         value="0",
@@ -48,6 +37,9 @@ def main(page: ft.Page):
         alignment=ft.MainAxisAlignment.CENTER,
         controls=[
             ft.Text(value="Desarrollado por SagoDev."),
+            ft.Text(value="Plan de Ejercicios."),
+            ft.Text(value="Flet."),
+            ft.Text(value="Básico."),
         ],
     )
 
@@ -83,15 +75,8 @@ def main(page: ft.Page):
 
     # Pagina principal
     page.add(
-        ft.Column(
-            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-            controls=[
-                # titulo
-                ejercicio_titulo,
-                # subtitulo
-                ejercicio_subtitulo,
-            ],
-        ),
+        # titulo
+        ejercicio_titulo,
         # contador
         contador_interactivo,
         # piede de pagina
