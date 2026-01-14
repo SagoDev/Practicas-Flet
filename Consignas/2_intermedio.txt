@@ -1,0 +1,14 @@
+
+Nivel Intermedio
+
+CRUD de tareas
+Crear, editar, completar y eliminar tareas usando componentes reutilizables.
+
+Dashboard simple
+Diseñar un dashboard con cards, filas y columnas mostrando datos simulados.
+
+App de notas persistentes
+Guardar y recuperar notas usando almacenamiento local.
+
+Landing page de producto
+Landing multipanel con navegación básica y estructura responsive.

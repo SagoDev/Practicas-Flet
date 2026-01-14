@@ -1,0 +1,21 @@
+Nivel Avanzado
+
+Gestión de usuarios
+App con listado, alta y edición de usuarios usando formularios modulares.
+
+Dashboard con gráficos
+Integrar métricas y visualizaciones de datos.
+
+Sistema de autenticación
+Implementar login/logout y control de vistas por estado del usuario.
+
+App multipágina completa
+Aplicación estructurada con routing, navegación y separación por módulos.
+
+Cuando quieras, indícame y:
+
+Regenero el PDF descargable con este contenido
+
+O comenzamos resolviendo los ejercicios paso a paso
+
+O transformamos esto en un roadmap guiado con criterios de evaluación
