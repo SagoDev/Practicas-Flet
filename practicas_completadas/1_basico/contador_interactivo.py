@@ -1,5 +1,6 @@
 """
-Flet - Primer ejercicio práctico: Contador interactivo
+Flet
+1º ejercicio práctico: Contador interactivo
 Crear una app con texto y botones para incrementar/decrementar un valor usando estado.
 """
 
@@ -19,19 +20,8 @@ def main(page: ft.Page):
     # Color de tema de la pagina
     page.theme = ft.Theme(color_scheme_seed=ft.Colors.GREY_50)
 
-    # Titulo ejercicio
+    # Titulo del ejercicio
     ejercicio_titulo = ft.Text(value="Contador interactivo", size=50)
-
-    # Subtitulo ejercicio
-    ejercicio_subtitulo = ft.Row(
-        alignment=ft.MainAxisAlignment.CENTER,
-        vertical_alignment=ft.CrossAxisAlignment.CENTER,
-        controls=[
-            ft.Text(value="Plan de Ejercicios."),
-            ft.Text(value="Flet."),
-            ft.Text(value="Básico."),
-        ],
-    )
 
     # Contador
     contador = ft.TextField(
@@ -47,6 +37,9 @@ def main(page: ft.Page):
         alignment=ft.MainAxisAlignment.CENTER,
         controls=[
             ft.Text(value="Desarrollado por SagoDev."),
+            ft.Text(value="Plan de Ejercicios."),
+            ft.Text(value="Flet."),
+            ft.Text(value="Básico."),
         ],
     )
 
@@ -82,15 +75,8 @@ def main(page: ft.Page):
 
     # Pagina principal
     page.add(
-        ft.Column(
-            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-            controls=[
-                # titulo
-                ejercicio_titulo,
-                # subtitulo
-                ejercicio_subtitulo,
-            ],
-        ),
+        # titulo
+        ejercicio_titulo,
         # contador
         contador_interactivo,
         # piede de pagina

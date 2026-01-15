@@ -1,13 +1,13 @@
 Nivel Básico
 
-Contador interactivo
+1- Contador interactivo
 Crear una app con texto y botones para incrementar/decrementar un valor usando estado.
 
-Formulario de contacto
+2- Formulario de contacto
 Diseñar un formulario con inputs y un botón que capture y muestre la información ingresada.
 
-Landing page personal
+3- Landing page personal
 Construir una landing estática con encabezado, descripción, botones y layout básico.
 
-Lista de tareas básica
+4 -Lista de tareas básica
 Implementar una lista dinámica para agregar y eliminar elementos.
